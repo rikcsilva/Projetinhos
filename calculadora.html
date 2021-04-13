@@ -12,44 +12,45 @@
     
    <div> 
    	<h3>Calculadora</h3>
-    <input id-input1/>
-    <input id-input2/>
+    <input id="input1"/>
+    <input id="input2"/>
    </div>
    <div> 
-    <button class="btn btn-primary" onclick-"soma()" id-"botao1">+</button>
-    <button class="btn btn-secondary" onclick-"subtracao()"id-"botao2">-</button>
-    <button class="btn btn-success" onclick-"multiplicacao()"id-"botao3">*</button>
-    <button class="btn btn-danger" onclick-"divisao()"id-"botao4">/</button>
-   <div> 
+    <button class="btn btn-primary" onclick="soma()" id="botao1">+</button>
+    <button class="btn btn-secondary" onclick="subtracao()"id="botao2">-</button>
+    <button class="btn btn-success" onclick="multiplicacao()"id="botao3">*</button>
+    <button class="btn btn-danger" onclick="divisao()"id="botao4">/</button>
+	 <div> 
 
    <script type="text/javascript">
 
-   	function soma(){
-   	  var num1 - parseInt(document.getElementById("input1").value)
-   	  var num2 - parseInt(document.getElementById("input2").value)
-   	  var result - num1+num2
-   	  alert("result")	
+   	function soma()
+	{
+   	  var num1 = parseInt(document.getElementById("input1").value)
+   	  var num2 = parseInt(document.getElementById("input2").value)
+   	  var result = num1 + num2
+   	  alert(result)
    	}
    	
    	function subtracao(){
-   	  var num1 - parseInt(document.getElementById("input1").value)
-   	  var num2 - parseInt(document.getElementById("input2").value)
-   	  var result - num1-num2
-   	  alert("result")	
+   	  var num1 = parseInt(document.getElementById("input1").value)
+   	  var num2 = parseInt(document.getElementById("input2").value)
+   	  var result = num1-num2
+   	  alert(result)	
    	}
    	
    	function multiplicacao(){
-   	  var num1 - parseInt(document.getElementById("input1").value)
-   	  var num2 - parseInt(document.getElementById("input2").value)
-   	  var result - num1*num2
-   	  alert("result")	
+   	  var num1 = parseInt(document.getElementById("input1").value)
+   	  var num2 = parseInt(document.getElementById("input2").value)
+   	  var result = num1*num2
+   	  alert(result)	
    	}
 
-   	function divsao(){
-   	  var num1 - parseInt(document.getElementById("input1").value)
-   	  var num2 - parseInt(document.getElementById("input2").value)
-   	  var result - num1/num2
-   	  alert("result")	
+   	function divisao(){
+   	  var num1 = parseInt(document.getElementById("input1").value)
+   	  var num2 = parseInt(document.getElementById("input2").value)
+   	  var result = num1/num2
+   	  alert(result)	
    	}
 
 
